@@ -1,0 +1,18 @@
+@media (max-width: 571px) {
+  padding: 20px;
+}
+.container,
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.nav__list,
+.nav__list__item
+.nav__btn__bar span {
+  display: none;
+}
+
+.burger__btn {
+  display: flex;
+}
